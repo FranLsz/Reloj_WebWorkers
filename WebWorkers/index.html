@@ -3,15 +3,22 @@
 <html>
 <head>
     <title>Web Workers</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="Css/style.css" rel="stylesheet" />
 </head>
 <body>
-<div class="hora">12:23:23</div>
-<span id="seg" style="color: red; font-size: 40pt;"></span>
-<button id="stop" type="button">Parar</button><br/>
-<button id="reiniciar" type="button">Reiniciar</button>
-    
+    <span id="time" class="time"></span>
+    <br />
+    <button id="cambiarHora" type="button">Cambiar hora</button>
+    <br />
+    <button id="cambiarColor" type="button">Cambiar color</button>
+    <br />
+    <button id="parar" type="button">Parar</button>
+    <br />
+    <button id="reanudar" type="button">Reanudar</button>
 
-<script src="Scripts/app.js"></script>
+
+    <script src="Scripts/app.js"></script>
 </body>
 </html>
