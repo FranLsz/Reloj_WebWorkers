@@ -1,9 +1,13 @@
 ﻿* {
     font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     background-color: rgb(51, 51, 51);
+    padding: 0;
+    margin: 0;
 }
 
 .time {
@@ -12,4 +16,31 @@ body {
     width: 900px;
     margin: 0 auto;
     display: block;
+}
+.btns {
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: 200px;
+}
+
+
+button {
+    border: 0;
+    background-color: white;
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+    width: 25%;
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    outline: none;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+
 }
